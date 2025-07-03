@@ -60,7 +60,7 @@ header {
 header .navbar {
     width: 100%;
     display: flex;
-    padding: 25px 40px;
+    padding: 30px 40px;
     justify-content: space-between;
 }
 
@@ -155,7 +155,7 @@ header .navbar .menu {
 /* content */
 
 section .content {
-    padding: 20px;
+    padding: 0 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -823,6 +823,7 @@ footer .wrapper .icon {
 
     .text-content p {
         font-size: 19px;
+        width: 450px;
     }
 
     button {
@@ -1057,11 +1058,17 @@ footer .wrapper .icon {
     /* navbar */
 
     header .navbar {
-        padding: 20px 30px;
+        padding: 25px 30px;
     }
 
     .menu.active {
         top: 75px;
+    }
+
+    /* home section */
+
+    .text-content p {
+        width: 400px;
     }
 
     /* projects section */
@@ -1237,6 +1244,10 @@ footer .wrapper .icon {
 @media (max-width: 800px) {
 
     /* home section */
+
+    .text-content p {
+        width: 350px;
+    }
 
     .content-img-wrap img {
         width: 400px;
@@ -1650,7 +1661,7 @@ footer .wrapper .icon {
     }
 
     header .navbar {
-        padding: 20px 25px;
+        padding: 25px;
     }
 
     .main-content {
@@ -1755,6 +1766,10 @@ footer .wrapper .icon {
 
     /* menu */
 
+    header .navbar {
+        padding: 20px;
+    }
+
     .menu-btn,
     .menu-btn-2 {
         right: 15px;
@@ -1764,10 +1779,6 @@ footer .wrapper .icon {
 
     section .content {
         padding: 0;
-    }
-
-    header .navbar {
-        padding: 15px;
     }
 
     .menu.active {
