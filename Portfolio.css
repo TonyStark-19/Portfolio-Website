@@ -313,7 +313,7 @@ button:hover {
     position: relative;
     border-bottom: 3px solid #d3d7de;
     padding: 60px 38px;
-    scroll-margin-top: 120px;
+    scroll-margin-top: 100px;
 }
 
 /* heading */
@@ -440,7 +440,7 @@ section .heading {
     position: relative;
     border-bottom: 3px solid #d3d7de;
     padding: 60px 38px;
-    scroll-margin-top: 120px;
+    scroll-margin-top: 100px;
 }
 
 /* tools tech main container */
@@ -530,7 +530,7 @@ section .heading {
     position: relative;
     border-bottom: 3px solid #d3d7de;
     padding: 60px 38px;
-    scroll-margin-top: 120px;
+    scroll-margin-top: 100px;
 }
 
 /* projects main container */
@@ -698,7 +698,7 @@ section .heading {
     position: relative;
     border-bottom: 3px solid #d3d7de;
     padding: 60px 30px 40px;
-    scroll-margin-top: 120px;
+    scroll-margin-top: 100px;
 }
 
 /* main container */
@@ -1054,6 +1054,13 @@ footer .wrapper .icon {
 }
 
 @media (max-width: 1000px) {
+
+    /* all */
+    #about,
+    #skills,
+    #experience {
+        scroll-margin-top: 90px;
+    }
 
     /* navbar */
 
@@ -1680,16 +1687,6 @@ footer .wrapper .icon {
     .container {
         margin-top: 40px;
     }
-
-    /* all */
-
-    #home,
-    #about,
-    #skills,
-    #experience,
-    #contact {
-        scroll-margin-top: 98px;
-    }
 }
 
 @media (max-width: 475px) {
@@ -1738,7 +1735,7 @@ footer .wrapper .icon {
     }
 
     .project-skill .skill {
-        padding: 5px;
+        padding: 5px 7px;
     }
 
     .project-skill .link {
@@ -1763,6 +1760,13 @@ footer .wrapper .icon {
 }
 
 @media (max-width: 400px) {
+
+    /* all */
+    #about,
+    #skills,
+    #experience {
+        scroll-margin-top: 80px;
+    }
 
     /* menu */
 
