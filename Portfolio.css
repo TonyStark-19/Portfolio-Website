@@ -955,13 +955,14 @@ footer .wrapper .icon {
         font-size: 17px;
         margin-bottom: 8px;
         display: block;
-        width: 140px;
+        width: 100%;
         outline: none;
         -webkit-tap-highlight-color: transparent;
     }
 
     .nav-link:hover {
-        border: 1px solid #2e3138;
+        color: #fff;
+        background: #3a90f8;
     }
 
     .nav-link:last-child {
