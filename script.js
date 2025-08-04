@@ -48,13 +48,14 @@ sr.reveal('.title', { delay: 50, origin: 'top' });
 sr.reveal('.box-wrap', { delay: 50, origin: 'bottom' });
 
 // skills section
-sr.reveal('.topic1', { delay: 50, origin: 'top' });
+sr.reveal('.topic1', { delay: 50, origin: 'bottom' });
 sr.reveal('.tool', { delay: 50, origin: 'bottom' });
-sr.reveal('.topic2', { delay: 50, origin: 'top' });
+sr.reveal('.topic2', { delay: 50, origin: 'bottom' });
 sr.reveal('.tech', { delay: 50, origin: 'bottom' });
 
 // projects section
 sr.reveal('.project-box-wrap', { delay: 50, origin: 'bottom' });
+sr.reveal('.experience-box-wrap', { delay: 50, origin: 'bottom' });
 
 // contact section
 sr.reveal('.container', { delay: 50, origin: 'bottom' });
