@@ -1743,6 +1743,10 @@ footer .wrapper .icon {
         font-size: 25px;
     }
 
+    .experience-box #box1 {
+        height: 160px;
+    }
+
     /* contact section */
 
     .container {
